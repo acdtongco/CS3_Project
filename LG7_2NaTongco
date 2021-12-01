@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>LG7_2NaTongco</title>
+
+        <meta charset= "UTF-8">
+        <meta name= "author" content = "Clark Tongco">
+        <meta name= "keywords" content="HTML, CSS, JavaScript">
+        <meta name= "date" content="Nov. 30, 2021">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+       <style>
+        h1 {
+               color: red;
+               background-color: yellow;
+               text-align: center;
+        }
+
+        p#main {
+               text-align: center;
+               border: 5px solid blue;
+               font-weight: bold;
+               font-size: large;
+        }
+
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+
+           
+        p#firstlink a:link {
+            background-color: lightblue;
+            color: green;
+            text-decoration: none;
+            border: solid black 1px;
+            padding: 1px;
+        }
+
+        p#firstlink a:visited {
+           background-color: orange;
+           color: snow;
+           text-decoration: none;
+           border: solid black 1px;
+           padding: 1px;
+        }
+
+        p#firstlink a:hover {
+          background-color: yellow;
+          color: red;
+          text-decoration: none;
+          border: solid black 1px;
+          padding: 1px;
+        }
+
+        p#firstlink a:active {
+        background-color: green;
+        color: blue;
+        text-decoration: none;
+        border: solid black 1px;
+        padding: 1px;
+        }
+
+        p#secondlink a:link {
+        background-color: green;
+        color: yellow;
+        text-decoration: none;
+        border: solid black 1px;
+        padding: 1px;
+        }
+
+        p#secondlink a:visited {
+        background-color: black;
+        color: lightskyblue;
+        text-decoration: none;
+        border: solid black 1px;
+        padding: 1px;
+        }
+
+        p#secondlink a:hover {
+        background-color: pink;
+        color: blue;
+        text-decoration: none;
+        border: solid black 1px;
+        padding: 1px;
+        }
+
+        p#secondlink a:active {
+        background-color: brown;
+        color: palegreen;
+        text-decoration: none;
+        border: solid black 1px;
+        padding: 1px;
+        }
+
+        a {
+        float: left;
+        }
+
+        div p {
+        border: 5px dashed blue;
+        padding: 50px;
+        }
+
+        p#change1:target {
+        background-color: black;
+        color: yellow;
+        border: 10px double red;
+        text-align: center;
+        }
+
+        p#change2:target{
+        border: 10px dotted green;
+        text-align: center;
+        background-color: darkkhaki;
+        }
+
+       </style>
+    </head>
+
+    <body>
+        <h1>Wonders of Nature</h1>
+        <p id="main">Welcome! You can see two links here which will change the texts and images below. Kindly click
+           the link to see the effects.
+        </p>
+        <p id="firstlink"><a href="#change1">Click here to see the first effect.</a></p>
+        
+        <div>
+            <img src="great barrier reef.jpeg" alt="great barrier reef">
+            <p id="change1">Great Barrier Reef</p>
+        </div> <br>
+
+        <p id="secondlink"><a href="#change2">Click here to see the second effect.</a></p>
+
+        <div>
+            <img src="redwood national park.jpg" alt="redwood national park">
+            <p id="change2">Redwood National Park</p>
+        </div>
+    </body>
+</html>
